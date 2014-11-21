@@ -15,19 +15,19 @@ class example {
 
     
 
-    public function callA-GET($getParams){
+    public function callAGET($getParams){
         
     }
 
-    public function callB-POST($postParams, $getParams){
+    public function callBPOST($postParams, $getParams){
 
     }
 
-    public function callC-PUT($putParams, $getParams){
+    public function callCPUT($putParams, $getParams){
 
     }
 
-    public function callD-DELETE($delParams,$getParams){
+    public function callDDELETE($delParams,$getParams){
 
     }
 }
