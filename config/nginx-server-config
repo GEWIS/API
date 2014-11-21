@@ -13,7 +13,7 @@ server {
     ssl_certificate     ssl/bundle.crt;
     ssl_certificate_key ssl/*_gewis_nl.key;
 
-    root /var/www/API/code/;
+    root /var/www/API/src/;
 
     index index.php;
 
