@@ -1,5 +1,31 @@
 <?php
 
+/**
+ * @SWG\Swagger(
+ *     schemes={"http"},
+ *     host="api.gewis.nl",
+ *     basePath="/",
+ *     @SWG\Info(
+ *         version="1.0.0",
+ *         title="GEWIS API",
+ *         description="",
+ *         termsOfService="http://helloreverb.com/terms/",
+ *         @SWG\Contact(
+ *             email="apiapiapi@gewis.nl"
+ *         ),
+ *         @SWG\License(
+ *             name="Apache 2.0",
+ *             url="http://www.apache.org/licenses/LICENSE-2.0.html"
+ *         )
+ *     ),
+ *     @SWG\ExternalDocumentation(
+ *         description="Find out more about the GEWIS API",
+ *         url="https://api.gewis.nl/docs"
+ *     )
+ * )
+ */
+
+
 // Parse the call to the API
 $call = explode("/",trim($_SERVER['DOCUMENT_URI'],'/'));
 $type = strToUpper($_SERVER['REQUEST_METHOD']);
@@ -14,12 +40,14 @@ if(empty($call[0])){
 // Instantiate database objects, note that pgsql cannot work right now due to ip permissions
 require_once 'database.php';
 $gewis = new Database(); // Standard parameters are set correctely for the mysql db
+
 //$pgsql = new Database('pgsql');
 $local = new Database("mysql", "gewisapi", "97f85e750585840024b3a9ab2211b604a0129067", "oauth", "localhost");
+$sudosos = new Database("mysql", "gewisapi", "97f85e750585840024b3a9ab2211b604a0129067", "sudosos", "localhost");
 
 $file = array_shift($call);
 
-$secondIsMethod = isMethod($file, $call[0], $type);
+$secondIsMethod = isset($call[0]) && isMethod($file, $call[0], $type);
 $thirdIsMethod = isset($call[1]) && isMethod($file, $call[1], $type);
 $defaultIsMethod = isMethod($file, "default", $type);
 
@@ -30,22 +58,24 @@ if($secondIsMethod){
 	$method = $call[1];
 	unset($call[1]);
 	$call = array_values($call);
+} else if (isset($call[0]) && isset($call[1]) && isMethod($file, "property", $type)){
+	$method = "property";
 } else if (!$defaultIsMethod){
-   error(405, "Method not allowed");
+   result(405, "Method not allowed");
 }
 $method .= $type;
 
 $stdin = file_get_contents("php://input");
 
-$data = array(
-	"POST" => $_POST,
-	"RAWPOST" => isset($HTTP_RAW_POST_DATA)?$HTTP_RAW_POST_DATA:"",
-	"RAWPOSTCONVERT" => bestEffortInputConvert($HTTP_RAW_POST_DATA),
-	"GET" => $_GET,
-	"STDIN" => $stdin, // Used for PUT and DELETE
-	"STDINCONVERT" => bestEffortInputConvert($stdin), // Used for PUT and DELETE
-	"CALL" => $call
-);
+
+$data = new stdClass();
+$data->POST = $_POST;
+$data->RAWPOST = isset($HTTP_RAW_POST_DATA) ? $HTTP_RAW_POST_DATA : "";
+$data->RAWPOSTCONVERT = isset($HTTP_RAW_POST_DATA) ? bestEffortInputConvert($HTTP_RAW_POST_DATA) : "";
+$data->GET = $_GET;
+$data->STDIN = $stdin; // Used for PUT and DELETE
+$data->STDINCONVERT = bestEffortInputConvert($stdin); // Used for PUT and DELETE
+$data->CALL = $call;
 
 output($file::$method($data));
 
@@ -82,15 +112,15 @@ function output($data){
 }
 
 /**
- * Set the error
+ * Set the result
  *
  * @param $status integer The statuscode to be set
- * @param $error String The errormessage to display
+ * @param $result String The errormessage to display
  * @post Program exits
  */
-function error($status, $error){
+function result($status, $result){
     http_response_code($status);
-    die($error);
+    return ($result);
 }
 
 /**

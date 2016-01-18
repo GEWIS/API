@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="61678eb3-9f3b-497f-b517-28b1965e60d2" name="Default" comment="" />
+    <ignored path="types.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="types" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="product.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/product.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.32409638">
+              <caret line="173" column="43" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="43" />
+              <folding>
+                <marker date="1446925587927" expanded="true" signature="3372:3472" placeholder="INSERT INTO ..." />
+                <marker date="1446925587927" expanded="true" signature="4502:4523" placeholder="SELECT * FRO..product..." />
+                <marker date="1446925587927" expanded="true" signature="4764:4796" placeholder="SELECT * FRO..product..." />
+                <marker date="1446925587927" expanded="true" signature="6440:6485" placeholder="SELECT * FRO..." />
+                <marker date="1446925587927" expanded="true" signature="6626:6706" placeholder="SELECT * FRO..." />
+                <marker date="1446925587927" expanded="true" signature="7879:7917" placeholder="UPDATE produ..." />
+                <marker date="1446925587927" expanded="true" signature="8861:8899" placeholder="UPDATE produ..." />
+                <marker date="1446925587927" expanded="true" signature="10266:10298" placeholder="SELECT * FRO..product..." />
+                <marker date="1446925587927" expanded="true" signature="12659:12777" placeholder="SELECT * FRO..COLUMNS..." />
+                <marker date="1446925587927" expanded="true" signature="13002:13045" placeholder="UPDATE produ..." />
+                <marker date="1446925587927" expanded="true" signature="13242:13274" placeholder="SELECT * fro..product..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pointOfSales.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pointOfSales.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-29.423077">
+              <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+              <folding>
+                <marker date="1446928152878" expanded="true" signature="10196:10319" placeholder="{...}" />
+                <marker date="1446928152878" expanded="true" signature="10328:11412" placeholder=" @SWG\Delete( ..." />
+                <marker date="1446928152878" expanded="true" signature="11488:12580" placeholder=" @SWG\Put( ..." />
+                <marker date="1446928152878" expanded="true" signature="12653:13726" placeholder=" @SWG\Get( ..." />
+                <marker date="1446928152878" expanded="true" signature="14099:14136" placeholder="SELECT * FRO..pointOfSales..." />
+                <marker date="1446928152878" expanded="true" signature="14543:15761" placeholder=" @SWG\Post( ..." />
+                <marker date="1446928152878" expanded="true" signature="15914:15977" placeholder="..." />
+                <marker date="1446928152878" expanded="true" signature="16352:16475" placeholder="SELECT * FRO..COLUMNS..." />
+                <marker date="1446928152878" expanded="true" signature="16685:16733" placeholder="UPDATE point..." />
+                <marker date="1446928152878" expanded="true" signature="16787:16880" placeholder="..." />
+                <marker date="1446928152878" expanded="true" signature="16915:16952" placeholder="SELECT * fro..pointOfSales..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pointOfSales.php" />
+        <option value="$PROJECT_DIR$/product.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="types" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="61678eb3-9f3b-497f-b517-28b1965e60d2" name="Default" comment="" />
+      <created>1446921476291</created>
+      <option name="number" value="Default" />
+      <updated>1446921476291</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pointOfSales.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-29.423077">
+          <caret line="88" column="7" selection-start-line="88" selection-start-column="7" selection-end-line="88" selection-end-column="7" />
+          <folding>
+            <marker date="1446928152878" expanded="true" signature="10196:10319" placeholder="{...}" />
+            <marker date="1446928152878" expanded="true" signature="10328:11412" placeholder=" @SWG\Delete( ..." />
+            <marker date="1446928152878" expanded="true" signature="11488:12580" placeholder=" @SWG\Put( ..." />
+            <marker date="1446928152878" expanded="true" signature="12653:13726" placeholder=" @SWG\Get( ..." />
+            <marker date="1446928152878" expanded="true" signature="14099:14136" placeholder="SELECT * FRO..pointOfSales..." />
+            <marker date="1446928152878" expanded="true" signature="14543:15761" placeholder=" @SWG\Post( ..." />
+            <marker date="1446928152878" expanded="true" signature="15914:15977" placeholder="..." />
+            <marker date="1446928152878" expanded="true" signature="16352:16475" placeholder="SELECT * FRO..COLUMNS..." />
+            <marker date="1446928152878" expanded="true" signature="16685:16733" placeholder="UPDATE point..." />
+            <marker date="1446928152878" expanded="true" signature="16787:16880" placeholder="..." />
+            <marker date="1446928152878" expanded="true" signature="16915:16952" placeholder="SELECT * fro..pointOfSales..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/product.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32409638">
+          <caret line="173" column="43" selection-start-line="173" selection-start-column="30" selection-end-line="173" selection-end-column="43" />
+          <folding>
+            <marker date="1446925587927" expanded="true" signature="3372:3472" placeholder="INSERT INTO ..." />
+            <marker date="1446925587927" expanded="true" signature="4502:4523" placeholder="SELECT * FRO..product..." />
+            <marker date="1446925587927" expanded="true" signature="4764:4796" placeholder="SELECT * FRO..product..." />
+            <marker date="1446925587927" expanded="true" signature="6440:6485" placeholder="SELECT * FRO..." />
+            <marker date="1446925587927" expanded="true" signature="6626:6706" placeholder="SELECT * FRO..." />
+            <marker date="1446925587927" expanded="true" signature="7879:7917" placeholder="UPDATE produ..." />
+            <marker date="1446925587927" expanded="true" signature="8861:8899" placeholder="UPDATE produ..." />
+            <marker date="1446925587927" expanded="true" signature="10266:10298" placeholder="SELECT * FRO..product..." />
+            <marker date="1446925587927" expanded="true" signature="12659:12777" placeholder="SELECT * FRO..COLUMNS..." />
+            <marker date="1446925587927" expanded="true" signature="13002:13045" placeholder="UPDATE produ..." />
+            <marker date="1446925587927" expanded="true" signature="13242:13274" placeholder="SELECT * fro..product..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

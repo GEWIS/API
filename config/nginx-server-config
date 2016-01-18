@@ -4,8 +4,10 @@ server {
     return 301 https://$server_name$request_uri;
 }
 
-# Mhh, we could improve security by not letting the API and pma run in the same fpm-pool
+
+#e could improve security by not letting the API and pma run in the same fpm-pool
 server {
+
     listen 443 ssl;
 
     server_name api.gewis.nl;
@@ -58,5 +60,7 @@ server {
         fastcgi_index index.php;
         fastcgi_param SCRIPT_FILENAME $document_root$fastcgi_script_name;
         include fastcgi_params;
-    }
+    
+  }
 }
+
