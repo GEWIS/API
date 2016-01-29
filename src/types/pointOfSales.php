@@ -822,10 +822,10 @@ class pointOfSales{
      *        response = 409,
      *        description = "Storage is not being sold from the Point of Sales",
      *      ),@SWG\Response(
-	 *		  response = 200,
-	 *		  description = "Success",
-	 * 		),
-	 *	)
+     *         response = 200,
+     *         description = "Success",
+     *      ),
+     *	)
      */
 	 public static function sellsDELETE($request){
 	 global $sudosos;

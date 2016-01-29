@@ -39,11 +39,13 @@ if(empty($call[0])){
 
 // Instantiate database objects, note that pgsql cannot work right now due to ip permissions
 require_once 'database.php';
-$gewis = new Database(); // Standard parameters are set correctely for the mysql db
+$dbsettings = include "settings.php";
 
-//$pgsql = new Database('pgsql');
-$local = new Database("mysql", "gewisapi", "97f85e750585840024b3a9ab2211b604a0129067", "oauth", "localhost");
-$sudosos = new Database("mysql", "gewisapi", "97f85e750585840024b3a9ab2211b604a0129067", "sudosos", "localhost");
+$gewis = $local = $sudosos = null;
+
+foreach($dbsettings as $name => $s){
+    $$name = new Database($s['type'], $s['username'], $s['password'], $s['database'], $s['location']);
+}
 
 $file = array_shift($call);
 
